@@ -1,4 +1,4 @@
-Landing page - Unit.
+Landing page - Unit. https://oleruzh.github.io/Unit-Website/
 -
 Technologies:
 - HTML5, SCSS.
