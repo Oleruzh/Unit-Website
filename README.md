@@ -1,6 +1,6 @@
 Landing page - Unit.
 Technologies:
-- HTML5, CSS.
+- HTML5, SCSS.
 - JavaScript
 - jQuery.
 - Owl Carousel 2 (plugin).
