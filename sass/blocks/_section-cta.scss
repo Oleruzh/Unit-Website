@@ -1,0 +1,51 @@
+.cta {
+  padding-top: 83px;
+  padding-bottom: 84px;
+  @include bgimg("./../img/bg/bg-2.jpg");
+  text-align: center;
+
+  /* Desktop */
+  @media (max-width: 1600px) {
+    @include bgimg("./../img/bg/bg-2-1600.jpg");
+  }
+
+  /* Tablet */
+  @media (max-width: 1199px) {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    @include bgimg("./../img/bg/bg-2-900.jpg");
+  }
+
+  /* Mobile */
+  @media (max-width: 899px) {
+    @include bgimg("./../img/bg/bg-2-600.jpg");
+  }
+
+  /* Mobile XS */
+  @media (max-width: 599px) {
+    @include bgimg("./../img/bg/bg-2-320.jpg");
+  }
+}
+
+.cta__title {
+  margin-bottom: 40px;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1;
+  color: #ffffff;
+
+  span {
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  /* Mobile */
+  @media (max-width: 899px) {
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+  /* Mobile XS */
+  @media (max-width: 599px) {
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+}

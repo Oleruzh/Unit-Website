@@ -1,0 +1,131 @@
+.focus {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  overflow-x: hidden;
+
+  /* Tablet */
+  @media (max-width: 1199px) {
+    padding-top: 40px;
+    padding-bottom: 29px;
+
+  }
+  /* Mobile */
+  @media (max-width: 899px) {    
+    padding-top: 51px;
+    padding-bottom: 0px
+  }
+
+  /* Mobile XS */
+  @media (max-width: 599px) {
+    padding-top: 40px;
+    padding-bottom: 24px;
+  }
+}
+.focus__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  /* Mobile */
+  @media (max-width: 899px) {
+    flex-direction: row-reverse;
+  }
+  /* Mobile XS */
+  @media (max-width: 599px) {
+    flex-direction: column;
+  }
+}
+
+.focus__row > * {
+  flex-shrink: 0;
+}
+
+.focus__img {
+  /* Tablet */
+  @media (max-width: 1199px) {
+    width: 420px;
+  }
+
+  /* Mobile */
+  @media (max-width: 899px) {
+    width: 170px;
+    img {
+      width: 415px;
+      height: auto;
+      max-width: unset;
+    }
+  }
+  /* Mobile XS */
+  @media (max-width: 599px) {
+    margin-bottom: 11px;
+    width: 100%;
+    img {
+      max-width: 100%;
+    }
+  }
+}
+
+.focus__content {
+  padding-top: 30px;
+  width: 470px;
+
+  /* Tablet */
+  @media (max-width: 1199px) {
+    width: 420px;
+  }
+  /* Mobile */
+  @media (max-width: 899px) {
+    padding-top: 0;
+    width: 370px;
+  }
+  /* Mobile XS */
+  @media (max-width: 599px) {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.focus__header {
+  margin-bottom: 30px;
+  /* Tablet */
+  @media (max-width: 1199px) {
+    margin-bottom: 20px;
+  }
+}
+
+.focus__title {
+  margin-bottom: 30px;
+
+  /* Tablet */
+  @media (max-width: 1199px) {
+    margin-bottom: 20px;
+  }
+  /* Mobile XS */
+  @media (max-width: 599px) {
+    margin-bottom: 10px;
+  }
+}
+
+.focus__text {
+  width: 400px;
+  color: $paragraphColor;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 2.14;
+
+  p {
+    margin-bottom: 15px; // отступы для абзаца
+  }
+
+  /* Tablet */
+  @media (max-width: 1199px) {
+    width: unset;
+    max-width: 420px;
+  }
+
+  /* Mobile */
+  @media (max-width: 899px) {
+    line-height: 1.7;
+  }
+}
